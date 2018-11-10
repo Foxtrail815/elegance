@@ -18,7 +18,9 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
 gem 'devise'
+gem 'rails_12factor', group: :production
 gem 'devise-bootstrap-views'
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
