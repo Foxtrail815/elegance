@@ -10,7 +10,10 @@ class DianosaursController < ApplicationController
   # GET /dianosaurs/1
   # GET /dianosaurs/1.json
   def show
+    @dianosaur = Dianosaur.find(params[:id])
   end
+
+
 
   # GET /dianosaurs/new
   def new
